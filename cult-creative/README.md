@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Firebase Config File is required to run this project.
 
 - Create New [Firebase Project](https://firebase.google.com/)
@@ -13,6 +9,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Run the following command
   - #### `npm i`
   - #### `npm start` to start the development server.
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
