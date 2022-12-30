@@ -6,6 +6,15 @@
   - Place your config in a .env file. .env should be in the root level of your directory.
   - Follow the React env naming convention
   - In the src -> actions -> jobActions file rename the variables according to your .env.
+
+### PLEASE NOTE:
+
+- This project requires seeder data to run.
+- The seeder data is in the src -> seeder.js file.
+- Seed the data to your firebase database.
+
+### To run this project locally
+
 - Run the following command
   - #### `npm i`
   - #### `npm start` to start the development server.
