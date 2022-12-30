@@ -38,7 +38,7 @@ const JobCard = ({ data }) => {
     (new Date().getTime() - date.getTime()) / (1000 * 3600 * 24)
   );
   //shorten the paragraph to 100 characters
-  let shortenedParagraph = paragraph.substring(0, 100);
+  let shortenedParagraph = paragraph.substring(0, 50);
   //dispatch the action to get the job details
   const fetchJobDetails = async () => {
     dispatch(listJobDetails(id));
@@ -70,7 +70,7 @@ const JobCard = ({ data }) => {
           </div>
         </div>
         <p>
-          {readMore && paragraph.length < 10 ? paragraph : shortenedParagraph}
+          {readMore ? paragraph : shortenedParagraph}
           {readMore ? (
             <span
               className="readMore"
