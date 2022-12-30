@@ -11,6 +11,9 @@
 
 - This project requires seeder data to run.
 - The seeder data is in the src -> seeder.js file.
+- THe postedDateTime field needs to be converted to a timestamp on the time of seeding otherwise the sorting will not work. You can use the following code to convert the date to a timestamp.
+  - `import {  serverTimestamp } from "firebase/firestore";`
+  - `jobs.map((job) => { job.postedDateTime = serverTimestamp();`
 - Seed the data to your firebase database.
 
 ### To run this project locally
