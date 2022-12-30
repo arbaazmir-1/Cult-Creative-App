@@ -1,0 +1,36 @@
+.containerSearchBar {
+  width: 100%;
+  .searchBar {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+
+    justify-content: center;
+    padding: 1%;
+
+    .select,
+    input {
+      width: 100%;
+      outline: none;
+      //border only at the right of the input
+      background-color: whitesmoke;
+      padding: 10px;
+    }
+    button {
+      width: 100%;
+      //border radius right only
+      background-color: orange;
+      outline: none;
+      border: none;
+      color: white;
+      border-radius: none !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .containerSearchBar {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
