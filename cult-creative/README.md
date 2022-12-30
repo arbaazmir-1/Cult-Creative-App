@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Firebase Config File is required to run this project.
+
+- Create New [Firebase Project](https://firebase.google.com/)
+- Create a New App from Firebase
+- You will get the config from firebase
+  - Place your config in a .env file. .env should be in the root level of your directory.
+  - Follow the React env naming convention
+  - In the src -> actions -> jobActions file rename the variables according to your .env.
+- Run the following command
+  - #### `npm i`
+  - #### `npm start` to start the development server.
+
 ## Available Scripts
 
 In the project directory, you can run:
